@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_layout_builder/screens/product_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,6 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'LayoutBuilder Demo',
       theme: ThemeData(primarySwatch: Colors.deepOrange),
+      home: const ProductScreen(),
+      // Hide debugger banner
       debugShowCheckedModeBanner: false,
     );
   }
