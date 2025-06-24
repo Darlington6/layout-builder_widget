@@ -3,14 +3,14 @@ import 'package:flutter_layout_builder/utils/constant_ui.dart';
 import 'package:flutter_layout_builder/utils/widget_boxes.dart';
 import 'package:flutter_layout_builder/utils/widget_lists.dart';
 
-class TabletScaffold extends StatefulWidget {
-  const TabletScaffold({super.key});
+class TabletLayout extends StatefulWidget {
+  const TabletLayout({super.key});
 
   @override
-  State<TabletScaffold> createState() => _TabletScaffoldState();
+  State<TabletLayout> createState() => _TabletScaffoldState();
 }
 
-class _TabletScaffoldState extends State<TabletScaffold> {
+class _TabletScaffoldState extends State<TabletLayout> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

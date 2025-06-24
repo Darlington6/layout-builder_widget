@@ -3,14 +3,14 @@ import 'package:flutter_layout_builder/utils/constant_ui.dart';
 import 'package:flutter_layout_builder/utils/widget_boxes.dart';
 import 'package:flutter_layout_builder/utils/widget_lists.dart';
 
-class DesktopScaffold extends StatefulWidget {
-  const DesktopScaffold({super.key});
+class DesktopLayout extends StatefulWidget {
+  const DesktopLayout({super.key});
 
   @override
-  State<DesktopScaffold> createState() => _DesktopScaffoldState();
+  State<DesktopLayout> createState() => _DesktopScaffoldState();
 }
 
-class _DesktopScaffoldState extends State<DesktopScaffold> {
+class _DesktopScaffoldState extends State<DesktopLayout> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
