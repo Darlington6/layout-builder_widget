@@ -20,9 +20,16 @@ class _DesktopScaffoldState extends State<DesktopLayout> {
         children: [
           commomDrawer,
           Expanded(
-            flex: 2,
+            flex: 3,
             child: Column(
                     children: [
+                      Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Text(
+                          "Dashboard",
+                          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                        ),
+                      ),
             AspectRatio(
               aspectRatio: 4,
               child: SizedBox(
@@ -30,13 +37,20 @@ class _DesktopScaffoldState extends State<DesktopLayout> {
                 child: GridView.builder(
                   itemCount: 5,
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 4,
+                    crossAxisCount: 4, // Lays out the grid items in 4 columns regardless of screen size using a fixed cross axis count
                     ), 
                   itemBuilder: (context, index){
                     return WidgetBoxes();
                   },
                   ),
               ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Text(
+                  "To Do",
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
               ),
               Expanded(
                 child: ListView.builder(
@@ -54,9 +68,19 @@ class _DesktopScaffoldState extends State<DesktopLayout> {
               children: [
                 Expanded(
                   child: Container(
-                    color: Colors.orange,
-                    child: Center(
-                      child: Text("Extra data here!"),
+                    color: Colors.teal,
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Center(
+                        child: Text(
+                          "Extra data here! This could be an aside", 
+                          style: TextStyle(
+                            fontSize: 18.0,
+                            color: Colors.black, 
+                            fontWeight: FontWeight.bold,
+                          ),
+                          ),
+                      ),
                     ),
                   ),
                   ),

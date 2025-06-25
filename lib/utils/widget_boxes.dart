@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// A simple stateless widget that displays a padded brown box
 class WidgetBoxes extends StatelessWidget {
   const WidgetBoxes({super.key});
 
@@ -8,7 +9,7 @@ class WidgetBoxes extends StatelessWidget {
     return Padding(
         padding: const EdgeInsets.all(8.0),
         child: Container(
-          color: Colors.orange,
+          color: Colors.brown,
         ),
       );
   }

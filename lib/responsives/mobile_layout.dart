@@ -17,17 +17,25 @@ class _MobileScaffoldState extends State<MobileLayout> {
       backgroundColor: commonBackground,
       appBar: commonAppBar("Mobile View"),
       drawer: commomDrawer,
+      // Use SingleChildScrollView to allow scrolling when there’s not enough vertical or horizontal (in this case, vertical) space to display everything at once.
       body: SingleChildScrollView(
         child: Column(
           children: [
+            Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Text(
+                "Dashboard",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+            ),
             AspectRatio(
               aspectRatio: 1,
               child: SizedBox(
                 width: double.infinity,
                 child: GridView.builder(
-                  itemCount: 4,
+                  itemCount: 5,
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
+                    crossAxisCount: 2, // Lays out the grid items in 2 columns regardless of screen size using a fixed cross axis count
                     ), 
                   itemBuilder: (context, index){
                     return WidgetBoxes();
@@ -35,9 +43,17 @@ class _MobileScaffoldState extends State<MobileLayout> {
                   ),
               ),
               ),
+              
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Text(
+                  "To Do",
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ),
               ListView.builder(
-                shrinkWrap: true,
-                physics: NeverScrollableScrollPhysics(),
+                shrinkWrap: true, // Shrinks the widget to fit the size of its content instead of expanding to fill available space
+                physics: NeverScrollableScrollPhysics(),  // Prevents GridView from scrolling independently
                 itemCount: 5,
                 itemBuilder: (context, index){
                   return WidgetLists();
@@ -45,9 +61,17 @@ class _MobileScaffoldState extends State<MobileLayout> {
                 ),
                 Container(
                   height: 500.0,
-                  color: Colors.orange,
+                  color: Colors.teal,
                   child: Center(
-                    child: Text("Extra data here!"),
+                    child: Text(
+                      "Extra data here! It could be footer elements",
+                      style: TextStyle(
+                        fontSize: 18.0,
+                        color: Colors.black, 
+                        fontWeight: FontWeight.bold,
+                      ),
+
+                      ),
                   ),
                 ),
           ],

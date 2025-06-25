@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_layout_builder/responsives/desktop_layout.dart';
-import 'package:flutter_layout_builder/responsives/mobile_layout.dart';
-import 'package:flutter_layout_builder/responsives/responsive_constraints.dart';
-import 'package:flutter_layout_builder/responsives/tablet_layout.dart';
+import 'package:flutter_layout_builder/screens/home_screen.dart'; // Importing the initial screen
 
+// The main function — entry point of the Flutter application
 void main() {
   runApp(MyApp());
 }
@@ -14,14 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, // Removes the debug banner from the top-right corner
       title: "LayoutBuilder Demo",
-      theme: ThemeData(),
-      home: ResponsiveLayout(
-        mobileLayout: MobileLayout(),
-        tabletLayout: TabletLayout(), 
-        desktopLayout: DesktopLayout(),
-        ),
+      home: HomeScreen()  // Sets the home screen when the app starts
     );
   }
 }
