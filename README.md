@@ -1,4 +1,4 @@
-![mobile-view-with-hamburger-opened](https://github.com/user-attachments/assets/1d332f6b-96a0-4792-90af-0850ca2db441)![mobile-view-with-hamburger-opened](https://github.com/user-attachments/assets/1d332f6b-96a0-4792-90af-0850ca2db441)# flutter_layout_builder
+# flutter_layout_builder
 [Inspired by a YouTube tutorial titled "Responsive Dashboard UI | LayoutBuilder | Flutter Tutorial"] (https://youtu.be/6Ts0S1XzOL4?si=eMYDgKNqqvDi_4J9)
 
 This Flutter demo app showcases the real-world use of the LayoutBuilder widget to create responsive layouts for mobile, tablet, and desktop screen sizes.
@@ -38,26 +38,31 @@ This demo simulates how an LMS platform might offer different UI layouts for dif
 ## Screenshots
 Here are various screenshots of how the UI adapts to different screen sizes.
 1. Home Screen:
-![home-screen](https://github.com/user-attachments/assets/e008ad4f-009b-4c4a-a4f3-766053ff22ea)
+   
 ![home-screen](https://github.com/user-attachments/assets/e008ad4f-009b-4c4a-a4f3-766053ff22ea)
 
-2. For Mobile View:
+3. For Mobile View:
 - Mobile view without hamburger menu opened:
-![mobile-view-without-hamburger-opened](https://github.com/user-attachments/assets/3b7a3741-a0d3-4cca-a9a6-ece9212f76ed)
+  
 ![mobile-view-without-hamburger-opened](https://github.com/user-attachments/assets/3b7a3741-a0d3-4cca-a9a6-ece9212f76ed)
 
 - Mobile view with hamburger menu opened:
-![mobile-view-with-hamburger-opened](https://github.com/user-attachments/assets/b90bb0ab-27ef-4f6e-97b9-685680d23d57)
+  
 ![mobile-view-with-hamburger-opened](https://github.com/user-attachments/assets/b90bb0ab-27ef-4f6e-97b9-685680d23d57)
 
 3. For Tablet View:
 - Tablet view without hamburger menu opened:
+  
+![tablet-view-without-hamburger-opened](https://github.com/user-attachments/assets/572a7c9b-a071-45d2-b568-f2d45a870ddd)
 
-- Tablet view with hamburger menu opened: 
+- Tablet view with hamburger menu opened:
+  
+![tablet-view-with-hamburger-opened](https://github.com/user-attachments/assets/0b54a25c-5b95-42d8-9330-09de6feec357)
 
 4. For Desktop View:
-- Desktop view with all comoponents rendered:
+- Desktop view with all components rendered:
 
+![desktop-view](https://github.com/user-attachments/assets/9dcc6704-9ee3-4759-bb6c-b35af66a9131)
 
 ## License and Copyright
 
