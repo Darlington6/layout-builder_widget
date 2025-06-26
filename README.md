@@ -1,4 +1,4 @@
-# flutter_layout_builder
+![mobile-view-with-hamburger-opened](https://github.com/user-attachments/assets/1d332f6b-96a0-4792-90af-0850ca2db441)![mobile-view-with-hamburger-opened](https://github.com/user-attachments/assets/1d332f6b-96a0-4792-90af-0850ca2db441)# flutter_layout_builder
 [Inspired by a YouTube tutorial titled "Responsive Dashboard UI | LayoutBuilder | Flutter Tutorial"] (https://youtu.be/6Ts0S1XzOL4?si=eMYDgKNqqvDi_4J9)
 
 This Flutter demo app showcases the real-world use of the LayoutBuilder widget to create responsive layouts for mobile, tablet, and desktop screen sizes.
@@ -8,8 +8,8 @@ The LayoutBuilder widget allows Flutter apps to build UI based on parent constra
 
 ## How to Run
 1. Clone the repo
-`git clone https://github.com/Darlington6/layout-builder_widget.git`
-`cd layout-builder_widget`
+```git clone https://github.com/Darlington6/layout-builder_widget.git```
+```cd layout-builder_widget```
 
 2. Open the project in VS Code/Android Studio, or any compatible IDE/Text editor of your choice.
 
@@ -38,14 +38,17 @@ This demo simulates how an LMS platform might offer different UI layouts for dif
 ## Screenshots
 Here are various screenshots of how the UI adapts to different screen sizes.
 1. Home Screen:
-- 
-
+![home-screen](https://github.com/user-attachments/assets/e008ad4f-009b-4c4a-a4f3-766053ff22ea)
+![home-screen](https://github.com/user-attachments/assets/e008ad4f-009b-4c4a-a4f3-766053ff22ea)
 
 2. For Mobile View:
 - Mobile view without hamburger menu opened:
+![mobile-view-without-hamburger-opened](https://github.com/user-attachments/assets/3b7a3741-a0d3-4cca-a9a6-ece9212f76ed)
+![mobile-view-without-hamburger-opened](https://github.com/user-attachments/assets/3b7a3741-a0d3-4cca-a9a6-ece9212f76ed)
 
 - Mobile view with hamburger menu opened:
-
+![mobile-view-with-hamburger-opened](https://github.com/user-attachments/assets/b90bb0ab-27ef-4f6e-97b9-685680d23d57)
+![mobile-view-with-hamburger-opened](https://github.com/user-attachments/assets/b90bb0ab-27ef-4f6e-97b9-685680d23d57)
 
 3. For Tablet View:
 - Tablet view without hamburger menu opened:
