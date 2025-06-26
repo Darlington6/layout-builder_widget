@@ -8,8 +8,8 @@ The LayoutBuilder widget allows Flutter apps to build UI based on parent constra
 
 ## How to Run
 1. Clone the repo
-```git clone https://github.com/Darlington6/layout-builder_widget.git```
-```cd layout-builder_widget```
+`git clone https://github.com/Darlington6/layout-builder_widget.git`
+`cd layout-builder_widget`
 
 2. Open the project in VS Code/Android Studio, or any compatible IDE/Text editor of your choice.
 
